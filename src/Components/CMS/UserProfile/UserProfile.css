@@ -1,0 +1,81 @@
+
+#profile {
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.pro_card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.fa-user {
+  font-size: 150px;
+  color: #ccc;
+}
+
+.delete-profile-button {
+  background-color: #dc3545;
+  border: none;
+  font-weight: bold;
+}
+
+.delete-profile-button:hover {
+  background-color: #c82333;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-details .row {
+  margin-bottom: 10px;
+}
+
+.prop {
+  font-weight: bold;
+}
+
+.colon {
+  font-weight: bold;
+  color: #777;
+  text-align: center;
+}
+
+.val {
+  font-weight: bold;
+}
+
+.edit-profile-button,
+.change-password-button {
+  margin-top: 20px;
+}
+
+.edit-profile-button {
+  background-color: #007bff;
+}
+
+.change-password-button {
+  background-color: #28a745;
+}
+
+.edit-profile-button:hover,
+.change-password-button:hover {
+  background-color: #0056b3;
+}
